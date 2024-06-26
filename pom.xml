@@ -5,6 +5,11 @@
     <artifactId>geogrid</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <scm>
+        <url>git@github.com:gbif/geogrid.git</url>
+        <connection>scm:git:git@github.com:gbif/geogrid.git</connection>
+        <developerConnection>scm:git:git@github.com:gbif/geogrid.git</developerConnection>
+    </scm>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -24,4 +29,14 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>gbif-snapshot</id>
+            <url>https://repository.gbif.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>thirdparty</id>
+            <url>https://repository.gbif.org/content/repositories/thirdparty</url>
+        </repository>
+    </distributionManagement>
 </project>
