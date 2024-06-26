@@ -3,13 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.giscience.utils.geogrid</groupId>
     <artifactId>geogrid</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.0.20240626</version>
     <packaging>jar</packaging>
     <scm>
         <url>git@github.com:gbif/geogrid.git</url>
         <connection>scm:git:git@github.com:gbif/geogrid.git</connection>
         <developerConnection>scm:git:git@github.com:gbif/geogrid.git</developerConnection>
-    </scm>
+      <tag>geogrid-0.0.0.20240626</tag>
+  </scm>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
